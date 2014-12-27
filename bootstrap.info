@@ -2,13 +2,6 @@ name = Bootstrap
 description = Built to use Bootstrap, a sleek, intuitive, and powerful front-end framework for faster and easier web development.
 core = 7.x
 
-; ;;;;;;;;;;;;;;;;;;;;;
-; ;; Scripts
-; ;;;;;;;;;;;;;;;;;;;;;
-; 
- scripts[] = 'js/bootstrap.shoppinglist.js'
-
-
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Regions

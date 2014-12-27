@@ -6,12 +6,8 @@
   /**
    * Provide vertical tab summaries for Bootstrap settings.
    */
-
-
   Drupal.behaviors.bootstrapSettingSummaries = {
     attach: function (context) {
-
-
       var $context = $(context);
 
       // Components.
