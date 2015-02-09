@@ -1,44 +1,28 @@
-module.exports = function(grunt) {
-
-  // Project configuration.
-  grunt.initConfig({
-    pkg: grunt.file.readJSON('package.json'),
-    watch: {
-      css: {
-        files: [
-          '**/*.sass',
-          '**/*.scss'
-        ],
-        tasks: ['compass']
-      },
-      options: {
-         livereload: true,
-      },
-      js: {
-        files: [
-          'assets/js/*.js',
-          'Gruntfile.js'
-        ],
-        tasks: ['jshint']
-      }
-    },
-    compass: {
-        dev: {
-            options: {
-                sassDir: 'custom-sass/scss',
-                cssDir: 'css',
-                imagesPath: 'assets/img',
-                noLineComments: false,
-                outputStyle: 'compressed'
+module.exports = function (grunt) {
+    grunt.initConfig({
+        watch: {
+            src: {
+                files: ['{,**/}*.{scss,sass}'],
+                tasks: ['compass:dev']
+            },
+           options: {
+                livereload: true,
+            },
+        },
+        compass: {
+            dev: {
+                options: {
+                    sassDir: 'custom-sass',
+                    cssDir: 'css',
+                    imagesPath: 'assets/img',
+                    noLineComments: false,
+                    outputStyle: 'compressed'
+                }
             }
         }
-    }
-  });
-
-  // Load the Grunt plugins.
-  grunt.loadNpmTasks('grunt-contrib-compass');
-  grunt.loadNpmTasks('grunt-contrib-watch');
-
-  // Register the default tasks.
-  grunt.registerTask('default', ['watch']);
+    });
+    grunt.loadNpmTasks('grunt-contrib-compass');
+    grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-sass-globbing');
 };

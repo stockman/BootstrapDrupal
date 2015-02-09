@@ -1,4 +1,69 @@
-/**
- * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
- * remove this comment and start adding your styles to this file.
- */
+/*
+Error: File to import not found or unreadable: sass-globbing.
+       Load paths:
+         Compass::SpriteImporter
+         /Users/tandoori/Sites/Drupal7Development/sites/all/themes/BootstrapDrupal/bootstrap_subtheme/custom-sass
+         /Users/tandoori/.rvm/gems/ruby-1.9.3-p545/gems/compass-core-1.0.1/stylesheets
+         /Users/tandoori/.rvm/gems/ruby-1.9.3-p545/gems/compass-blend-modes-0.0.2/stylesheets
+         /Users/tandoori/.rvm/gems/ruby-1.9.3-p545/gems/compass-normalize-1.5/stylesheets
+        on line 8 of /Users/tandoori/Sites/Drupal7Development/sites/all/themes/BootstrapDrupal/bootstrap_subtheme/custom-sass/style.scss
+
+3: // --------------------------------------------------
+4: 
+5: 
+6: @import 'compass';
+7: @import '../bootstrap-sass/bootstrap.scss';
+8: @import 'sass-globbing';
+9: 
+10: //import partials
+11: @import "partials/**\/*";
+
+Backtrace:
+/Users/tandoori/Sites/Drupal7Development/sites/all/themes/BootstrapDrupal/bootstrap_subtheme/custom-sass/style.scss:8
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/tree/import_node.rb:66:in `rescue in import'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/tree/import_node.rb:45:in `import'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:301:in `visit_import'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/stack.rb:79:in `block in with_base'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/stack.rb:115:in `with_frame'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/stack.rb:79:in `with_base'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/tree/root_node.rb:20:in `render'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/engine.rb:268:in `render'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:491:in `update_stylesheet'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@global/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545/gems/compass-1.0.1/lib/compass/sass_compiler.rb:40:in `compile!'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545/gems/compass-1.0.1/lib/compass/commands/update_project.rb:49:in `perform'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545/gems/compass-1.0.1/lib/compass/commands/base.rb:18:in `execute'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545/gems/compass-1.0.1/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545/gems/compass-1.0.1/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545/gems/compass-1.0.1/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545/gems/compass-1.0.1/bin/compass:30:in `block in <top (required)>'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545/gems/compass-1.0.1/bin/compass:44:in `call'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545/gems/compass-1.0.1/bin/compass:44:in `<top (required)>'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545/bin/compass:23:in `load'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545/bin/compass:23:in `<main>'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545/bin/ruby_executable_hooks:15:in `eval'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: sass-globbing.\A        Load paths:\A          Compass::SpriteImporter\A          /Users/tandoori/Sites/Drupal7Development/sites/all/themes/BootstrapDrupal/bootstrap_subtheme/custom-sass\A          /Users/tandoori/.rvm/gems/ruby-1.9.3-p545/gems/compass-core-1.0.1/stylesheets\A          /Users/tandoori/.rvm/gems/ruby-1.9.3-p545/gems/compass-blend-modes-0.0.2/stylesheets\A          /Users/tandoori/.rvm/gems/ruby-1.9.3-p545/gems/compass-normalize-1.5/stylesheets\A         on line 8 of /Users/tandoori/Sites/Drupal7Development/sites/all/themes/BootstrapDrupal/bootstrap_subtheme/custom-sass/style.scss\A \A 3: // --------------------------------------------------\A 4: \A 5: \A 6: @import 'compass';\A 7: @import '../bootstrap-sass/bootstrap.scss';\A 8: @import 'sass-globbing';\A 9: \A 10: //import partials\A 11: @import \"partials/**/*\";"; }

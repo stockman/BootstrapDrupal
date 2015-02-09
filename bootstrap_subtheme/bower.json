@@ -1,0 +1,8 @@
+{
+    "name": "project-name",
+    "dependencies": {
+        "bootstrap": "3.x",
+        "jquery": "1.x",
+        "font-awesome": "*"
+    }
+}
